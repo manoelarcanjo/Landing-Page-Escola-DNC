@@ -1,0 +1,25 @@
+@use 'reset';
+@use 'colors' as *;
+
+header {
+    background-image: url(../../../assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    #logo {
+        margin: 50px 0 0 50px;
+    }
+
+    h1 {
+        margin-left: 150px;
+        margin-top: 50px;
+        color: $white;
+    }
+
+    p {
+        margin-left: 150px;
+        margin-top: 35px;
+        color: $white;
+        padding-bottom: 100px;
+    }
+}

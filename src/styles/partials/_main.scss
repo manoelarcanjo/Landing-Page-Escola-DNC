@@ -1,0 +1,25 @@
+@use 'colors' as *;
+@use 'reset';
+
+main {
+    #info {
+        background-color: $gray;
+        color: $blue;
+
+        ul {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;  
+            
+            li {
+                display: flex;
+                align-items: center;
+                
+                img {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
