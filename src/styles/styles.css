@@ -58,4 +58,43 @@ main .video h2 {
 main .video p {
   margin-bottom: 30px;
   color: #383838;
+}
+main .carrossel {
+  background-color: #247BA0;
+}
+main .carrossel h2 {
+  color: #EAECE5;
+  text-align: center;
+  padding: 50px;
+}
+main .carrossel .cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 75px;
+}
+main .carrossel .cards img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main .carrossel .cards img:hover {
+  transform: scale(1.2);
+}
+main .carrossel .card {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 40%;
+}
+main .carrossel .card img {
+  margin-right: 20px;
+}
+main .carrossel .card .cardText h4 {
+  margin-top: 20px;
+}
+main .carrossel #samantha {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
