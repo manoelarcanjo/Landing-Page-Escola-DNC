@@ -1,0 +1,48 @@
+@use 'colors' as *;
+@use 'reset';
+
+footer {
+    h2 {
+        text-align: center;
+        padding: 30px 0 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+
+        input {
+            background-color: $gray;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            width: 35%;
+
+        }
+
+        input::placeholder {
+            color: $text;
+        }
+
+        button {
+            border: none;
+            background-color: $blue-secondary;
+            color: $white;
+            padding: 20px;
+            width: 15%;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bolder;
+            transition: 0.6s ease;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: $blue-hover;
+            box-shadow: 0px 15px 20px $text;
+        }
+    }
+}
