@@ -32,7 +32,7 @@ main #info {
   color: #122235;
 }
 main #info ul {
-  height: 150px;
+  height: 125px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -43,4 +43,19 @@ main #info ul li {
 }
 main #info ul li img {
   padding-right: 10px;
+}
+main .video {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .video h2 {
+  color: #247BA0;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+main .video p {
+  margin-bottom: 30px;
+  color: #383838;
 }/*# sourceMappingURL=styles.css.map */
